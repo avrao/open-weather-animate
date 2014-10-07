@@ -1,0 +1,24 @@
+{
+  "name": "opem-weather-map",
+  "version": "0.0.0",
+  "authors": [
+    "Anitha Rao <annasaru@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-route": "~1.2.26",
+    "angular-animate": "~1.2.26"
+  }
+}
