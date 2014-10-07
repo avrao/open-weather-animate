@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="OWMApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="owm-app.css">
+    <title>Open Weather Map</title>
+</head>
+<body ng-class="{loading:isLoading}">
+<a href="#/cities/NewYork">NewYork</a>
+<a href="#/cities/WashingtonDC">WashingtonDC</a>
+<a href="#/cities/Chicago">Chicago</a>
+	<div class="animate-view-container">
+    	<div ng-view class="animate-view"></div>
+    </div>
+    <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="./owm-app.js"></script>
+</body>
+</html>
